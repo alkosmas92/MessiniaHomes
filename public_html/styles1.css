@@ -1,0 +1,226 @@
+h1 {
+  font-size: 2.7rem;
+  color: #112d4e;
+  font-family: "Source-Sans";
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-family: "Source-Sans";
+  color: #112d4e;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Source-Sans";
+  text-align: left;
+}
+
+h4 {
+  font-size: 1.5rem;
+  text-align: right;
+  margin: 2rem;
+  color: white;
+}
+
+h5 {
+  font-size: 5.5rem;
+  font-family: "Source-Sans";
+}
+
+h6 {
+  font-size: 1.2rem;
+  color: #white;
+  font-family: "Source-Sans";
+}
+
+p {
+  color: #gray;
+  font-family: "Source-Sans";
+  text-align: left;
+}
+
+.logo__img {
+  position: absolute;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 93vh;
+}
+
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%
+}
+
+.icon-scroll {
+  width: 30px;
+  height: 50px;
+  margin-left: -20px;
+  bottom: 10px;
+  margin-top: -35px;
+  border: 2px solid #fff;
+  border-radius: 25px
+}
+
+@media (max-width: 1300px) {
+  .icon-scroll {
+    position:relative;
+  }
+}
+
+.icon-scroll:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(26px)
+  }
+}
+
+#boxes1 {
+  background-color: #3f72af;
+}
+
+.gutter {
+  padding: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+span {
+  padding: 20px;
+}
+
+.pt-section {
+  position: absolute;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*ypiresies*/
+
+.services-intro {
+  padding-left: 50%;
+  padding-right: 10%;
+  padding-top: 2%;
+  text-align:justify;
+  spacing: 1px;
+  font-style: normal;
+  background-image:url("https://images.unsplash.com/photo-1543490791-db8323d8e5b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  height: 100vh;
+  position: sticky;
+}
+
+.col-md-4 {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+#services{
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 10%;
+}
+
+#services7{
+  padding-bottom: 20%;
+}
+
+#services15{
+    padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+#servicesspecial{
+  padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+.icon-scroll1,
+.icon-scroll1:before {
+  position: absolute;
+  left: 50%
+}
+
+.icon-scroll1 {
+  width: 30px;
+  height: 50px;
+  margin-left: -20px;
+  bottom: 10px;
+  margin-top: -35px;
+  border: 2px solid #fff;
+  border-radius: 25px
+}
+
+@media (max-width: 1300px) {
+  .icon-scroll {
+    position: absolute;
+  }
+}
+
+.icon-scroll1:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #112d4e;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll
+}
+
+.boat-pic {
+  padding-left: 5%;
+  padding-right: 5%;
+  width:100%;
+  height: auto;
+  position:sticky;
+}
+
+#messenia {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 0.5%;
+  width: 100%%;
+  height: 120vh;
+  position: sticky;
+}
+
+
+#contact{
+  text-align: left;
+  padding-left: 120px;
+  }
+
+  .hear{
+    padding-left: 20px;
+    text-decoration-color: #gray;
+  }
+
+  .stair{
+    width: 45%;
+    float: right;
+    margin-right: 30px;}
+  }
